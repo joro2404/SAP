@@ -1,8 +1,7 @@
 package com.SAP.IntorToJava;
 
-public class Main {
-
+public class Times {
     public static void main(String[] args) {
-
+        
     }
 }
