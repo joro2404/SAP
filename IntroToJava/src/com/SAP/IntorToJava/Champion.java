@@ -1,4 +1,4 @@
-package com.SAP.IntorToJava;
+//package com.SAP.IntorToJava;
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.StringTokenizer;
@@ -19,6 +19,7 @@ public class Champion {
             integers[p] = Integer.parseInt(arr[p]);
         }
         Arrays.sort(integers);
+        num = integers[0];
         for(int j =1;j<arr.length;j++){
             if(integers[j] == symbol){
                 curr++;
