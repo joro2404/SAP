@@ -1,4 +1,4 @@
-package com.SAP.IntorToJava;
+//package com.SAP.IntorToJava;
 
 import java.util.Scanner;
 
@@ -10,9 +10,9 @@ public class Unique {
         s = sc.nextLine();
 
         for(int i=0; i<s.length();i++){
-            for(int j=i+1;j<s.length();j++){
+            for(int j=i+1;j<s.length()-1;j++){
                 if(s.charAt(i) == s.charAt(j)){
-                    System.out.print(false);
+                    System.out.println(false);
                     return;
 
                 }
@@ -20,7 +20,7 @@ public class Unique {
             }
 
         }
-        System.out.print(true);
+        System.out.println(true);
 
     }
 
