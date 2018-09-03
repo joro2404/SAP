@@ -1,4 +1,4 @@
-package com.SAP.IntorToJava;
+//package com.SAP.IntorToJava;
 import java.util.Scanner;
 import java.util.Arrays;
 
@@ -22,16 +22,16 @@ public class Anagram {
                 }
             }
         }
-        if(check(a) && check(b))System.out.print(true);
+        if(check(a) && check(b))System.out.println(true);
         else {
-            System.out.print(false);
+            System.out.println(false);
         }
 //        System.out.println(a);
 //        System.out.println(b);
     }
     public static boolean check(char[] s){
         for(int i=0;i<s.length;i++){
-            if((i >='A' && i<='Z') || (i >='a' && i<='z'))return false;
+            if((s[i] >='A' && s[i]<='Z') || (s[i] >='a' && s[i]<='z'))return false;
         }
         return true;
     }
